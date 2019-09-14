@@ -33,11 +33,17 @@ address{
    padding-top: 10px;
    padding-bottom: 10px;
 }
+/* background color blue, the body to tan, the footer 
+to a darker tan. I changed the adress text to normal font 
+size a little bigger Aligned the text and added padding to
+the top and bottom
 
 /* Heading Styles */
 header h1, h2{
    font-weight: normal;
 }
+/* changed the font weight to normal for all h1's and h2's
+in the header.
 
 /* Navigation Styles */
 nav > ul{
@@ -52,7 +58,9 @@ nav a:link, a:visited{
 nav a:hover, a:active{
    color: rgb(212, 35, 35);
 }
-
+/* Changed nav's uls with no list marker bigger line heght 
+and font size took away text decoration for visited and 
+unvisited links and changed color to both of them.
 /* Article Styles */
 article h1{
    font-size: 2.2em;
@@ -61,10 +69,13 @@ article h1{
 article p{
    font-size: 1.1em;
 }
-article :first-of-type ::first-line{
+article:first-of-type::first-line{
    font-variant: small-caps;
    font-size: 1.2em;
 }
+/*made the articles h1 font size bigger and expanded the 
+line spacemade paragragh font size bigger changed the first 
+line of the firt article to small caps and made the font bigger
 /* Aside Styles */
 aside h1{
    font-size: 1.2em;
@@ -75,12 +86,14 @@ aside h2{
 aside p{
    font-size: 0.8em:
 }
-aside :nth-of-type(odd){
+aside:nth-of-type(odd){
    color: rgb(79, 91, 40);
 }
-aside :nth-of-type(even){
+aside:nth-of-type(even){
    color: rgb(81, 95, 175);
 }
+/*made h1, h2, and p font size bigger
+changed the odd number items to a different color then even.
 
 /* Blockquote Styles */
 blockquote{
@@ -95,5 +108,7 @@ blockquote p{
    padding-left: 10px;
    padding-right: 10px;
 }
+/* changed the blockquotes background color, text color, and opacity
+and changed the paragragh paddings*/
 
 
